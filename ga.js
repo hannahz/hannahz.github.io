@@ -8,5 +8,3 @@
   ga('send', 'pageview');
 
 </script>
-
-_trackEvent('Button', 'click', 'click here')
