@@ -1,0 +1,55 @@
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+div {
+	padding: 0px;
+	margin: 0px;
+}
+
+.header {
+	display: flex;
+	flex-flow: row wrap;
+	/*flex-direction: column;*/
+}
+
+.body {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.box {
+	display: block;
+	border: 1px solid black;
+	margin: auto;
+	flex: 1 100%;
+	height: 100px;
+}
+
+.box-red{
+	background-color: red;
+	flex: 1 auto;
+}
+
+.box-blue{
+	background-color: blue;
+	flex: 4 auto;
+}
+
+.box-green{
+	background-color: green;
+	flex: 1 auto;
+}
+
+.box-yellow{
+	background-color: yellow;
+	height: 800px;
+	flex: 1 auto;
+}
+
+.box-white{
+	background-color: none;
+	height: 800px;
+	flex: 3 auto;
+}
